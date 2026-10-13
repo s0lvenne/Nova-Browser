@@ -46,3 +46,10 @@ Requires [.NET 9.0 SDK](https://dotnet.microsoft.com/download/dotnet/9.0) on Win
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+
+
+---
+## Telegram Channel
+
+**[Link-Telegram]{https://t.me/s0lvenne_s}**
