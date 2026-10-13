@@ -51,5 +51,5 @@
 ---
 ## Telegram Канал
 
-**[Ссылка-Telegram]{https://t.me/s0lvenne_s}**
+**[Ссылка-Telegram](https://t.me/s0lvenne_s)**
 
