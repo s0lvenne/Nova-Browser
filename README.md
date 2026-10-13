@@ -41,15 +41,6 @@
 
 Requires [.NET 9.0 SDK](https://dotnet.microsoft.com/download/dotnet/9.0) on Windows 10/11 x64:
 
-```cmd
-dotnet build -c Release
-```
-
-For standalone distribution:
-```cmd
-dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=false -o ./publish
-```
-
 ---
 
 ## License
