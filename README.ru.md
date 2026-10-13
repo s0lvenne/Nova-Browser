@@ -46,3 +46,10 @@
 ## Лицензия
 
 Проект распространяется под свободной лицензией [MIT License](LICENSE).
+
+
+---
+## Telegram Канал
+
+**[Ссылка-Telegram]{https://t.me/s0lvenne_s}**
+
