@@ -1,0 +1,52 @@
+<Window x:Class="NovaBrowser.SplashWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Nova"
+        Width="440" Height="250"
+        WindowStyle="None" AllowsTransparency="True"
+        Background="Transparent" ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        ShowInTaskbar="False" Topmost="True">
+    <Window.Resources>
+        <LinearGradientBrush x:Key="NovaLogoGrad" StartPoint="0,0" EndPoint="1,0.32">
+            <GradientStop Color="#FFFFFF" Offset="0"/>
+            <GradientStop Color="#BEF47B" Offset="0.42"/>
+            <GradientStop Color="#7AD7FF" Offset="0.58"/>
+            <GradientStop Color="#FFCC00" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Resources>
+    <Grid>
+        <Border Background="#07090d" CornerRadius="18"
+                BorderBrush="#1c2433" BorderThickness="1">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="40" ShadowDepth="0" Opacity="0.8" Color="Black"/>
+            </Border.Effect>
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="32">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,20">
+                    <Viewbox Width="46" Height="46" Margin="0,0,14,0">
+                        <Canvas Width="64" Height="64">
+                            <Canvas.RenderTransform>
+                                <SkewTransform AngleX="-14"/>
+                            </Canvas.RenderTransform>
+                            <Path Fill="{StaticResource NovaLogoGrad}" Data="M12,10 H30 V54 H12 Z"/>
+                            <Path Fill="{StaticResource NovaLogoGrad}" Data="M42,10 H60 V54 H42 Z"/>
+                            <Path Fill="{StaticResource NovaLogoGrad}" Data="M14,54 H32 L54,10 H36 Z"/>
+                        </Canvas>
+                    </Viewbox>
+                    <TextBlock FontSize="36" FontWeight="Bold" FontFamily="Segoe UI"
+                               Text="Nova" Foreground="{StaticResource NovaLogoGrad}"
+                               VerticalAlignment="Center"/>
+                </StackPanel>
+                <TextBlock x:Name="StatusText"
+                           Text="Загрузка браузера..."
+                           FontSize="13" Foreground="#8b93ab"
+                           HorizontalAlignment="Center"
+                           FontFamily="Segoe UI"
+                           Margin="0,0,0,16"/>
+                <ProgressBar IsIndeterminate="True" Height="3" Width="300"
+                             Background="#1c2433" Foreground="#BEF47B"
+                             BorderThickness="0"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
