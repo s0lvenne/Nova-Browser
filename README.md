@@ -52,4 +52,4 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 ## Telegram Channel
 
-**[Link-Telegram]{https://t.me/s0lvenne_s}**
+**[Link-Telegram](https://t.me/s0lvenne_s)**
